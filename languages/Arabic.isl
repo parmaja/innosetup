@@ -1,4 +1,4 @@
-; *** Inno Setup version 5.1.11+ Arabic messages ***
+; *** Inno Setup version 5.5.0+ English messages ***
 ;
 ; Translator: "Zaher Dirkey" zaherdirkey(at)yahoo.com
 ;
@@ -47,6 +47,10 @@ LastErrorMessage=%1.%n%nÎØÃ %2: %3
 SetupFileMissing=Çáãáİ %1 ãİŞæÏ ãä ãÌáÏ ÇáÊÑßíÈ. ÇáÑÌÇÁ Íá ÇáãÔßáÉ Ãæ ÍÇæá ÇáÍÕæá Úáì äÓÎÉ ÌÏíÏÉ ãä ÇáÈÑäÇãÌ.
 SetupFileCorrupt=ãáİÇÊ ÇáÅÚÏÇÏ ãÚØæÈÉ. ÇáÑÌÇÁ ÍÇæá ÇáÍÕæá Úáì äÓÎÉ ÌÏíÏÉ ãä ÇáÈÑäÇãÌ.
 SetupFileCorruptOrWrongVer=ãáİÇÊ ÇáÅÚÏÇÏ ãÚØæÈÉ¡ Ãæ ÛíÑ ãÊæÇİŞÉ ãÚ ÅÕÏÇÑ ÇáÅÚÏÇÏ¡ ÇáÑÌÇÁ Íá ÇáãÔßáÉ Ãæ ÍÇæá ÇáÍÕæá Úáì äÓÎÉ ÌÏíÏÉ ãä ÇáÈÑäÇãÌ.
+InvalidParameter=ÎØÃ İí ŞíãÉ ÇáãÚØíÇÊ ÇáãÑÑÉ áÓØÑ ÇáÃæÇãÑ:%n%n%1
+SetupAlreadyRunning=åäÇáß ÈÑäÇãÌ ÊÑßíÈ ÔÛÇá ãÓÈŞÇ.
+WindowsVersionNotSupported=åĞÇ ÇáÈÑäÇãÌ áÇ íÏÚã ÇÕÏÇÑ ÇáæíäÏæÒ ÇáĞí íÚãá Úáì ÌåÇÒß.
+WindowsServicePackRequired=åĞÇ ÇáÈÑäÇãÌ íÊØáÈ %1 ÍÒãÉ ÇáÎÏãÇÊ %2 Ãæ ÃÍÏË.
 NotOnThisPlatform=åĞÇ ÇáÈÑäÇãÌ áÇ íãßäå ÇáÚãá Úáì %1.
 OnlyOnThisPlatform=åĞÇ ÇáÈÑäÇãÌ íÌÈ Ãä íÚãá Úáì %1.
 OnlyOnTheseArchitectures=åĞÇ ÇáÈÑäÇãÌ íãßä ÊäÒíáå İŞØ Úáì åĞå ÇáÅÕÏÇÑÇÊ ãä äÙÇã æíäÏæÒ ãÕãã ÈäíÉ ÇáãÚÇáÌÇÊ:%n%n%1
@@ -137,7 +141,8 @@ SelectDirDesc=Ãíä ÊÑíÏ Ãä íÊã ÊÑßíÈ [name]¿
 SelectDirLabel3=ÇáÅÚÏÇÏ Óæİ íÑßøÈ [name] İí ÇáãÌáÏ ÇáÊÇáí.
 SelectDirBrowseLabel=ááãÊÇÈÚÉ, ÇÖÛØ ÇáÊÇáí. ÅĞÇ ÇÃÏÊ Ãä ÊÎÊÇÑ ãÌáÏ ÂÎÑ¡ ÇÖÛØ ÇÓÊÚÑÇÖ.
 DiskSpaceMBLabel=Úáì ÇáÃŞá [mb] MB ãä ÇáãÓÇÍÉ ãØáæÈÉ.
-ToUNCPathname=ÇáÅÚÏÇÏ áÇ íÓÊØíÚ ÊÑßíÈ ÇáÈÑäÇãÌ İí ãÓÇÑ UNC¡ ÅĞÇ ßäÊ ÊÑÛÈ ÈÇáÊÎÒíä İí ÇáÔÈßÉ¡ íÌÈ Ãä ÊÍÏÏ ŞÑÕ ÇáÔÈßÉ.
+CannotInstallToNetworkDrive=ÈÑäÇãÌ ÇáÊÑßíÈ áÇ íÓÊØíÚ Çä íŞæã ÈäÓÎ ÇáãáİÇÊ Úáì ãÍÑßÇÊ ÇáÔÈßíÉ.
+CannotInstallToUNCPath=ÈÑäÇãÌ ÇáÊÑßíÈ áÇ íÓÊØíÚ Çä íŞæã ÈäÓÎ ÇáãáİÇÊ Úáì ãÓÇÑÇÊ ÇáÔÈßíÉ.
 InvalidPath=íÌÈ Ãä ÊÏÎá ãÓÇÑ ßÇãá ãÚ ãÍÑİ ÇáÓæÇŞÉ; ãËá:%n%nC:\APP%nßĞáß ãÓÇÑ UNC Úáì ÇáÔßá:%n%n\\server\share
 InvalidDrive=ÇáÓæÇŞÉ Ãæ ÇáÜ UNC ÇáĞí ÇÎÊÑÊå áíÓ ãæÌæÏÇ Ãæ áÇ íãßä ÇáæÕæá Åáíå. ÇáÑÌÇÁ ÇÎÊíÇÑ ÛíÑå.
 DiskSpaceWarningTitle=áÇ íæÌÏ ãÓÇÍÉ ßÇİíÉ Úáì ÇáŞÑÕ
@@ -197,6 +202,10 @@ WizardPreparing=ÇáÊÍÖíÑ ááÊÑßíÈ
 PreparingDesc=ÇáÅÚÏÇÏ íŞæã ÈÇáÊÍÖíÑ áÊÑßíÈ [name] Úáì ÌåÇÒß.
 PreviousInstallNotCompleted=ÇáÊÑßíÈ/ÇáÅÒÇáÉ ÇáÓÇÈŞ ÛíÑ ãßÊãá. íÌÈ ÅÚÇÏÉ ÊÔÛíá ÇáÌåÇÒ áÅßãÇá ÊÑßíÈ.%n%nÈÚÏ ÅÚÇÏÉ ÊÔÛíá ÇáÌåÇÒ, ÃÚÏ ÊÔÛíá ÇáÅÚÏÇÏ áÅßãÇá ÊÑßíÈ [name].
 CannotContinue=ÇáÅÚÏÇÏ áÇ íãßäå ÇáãÊÇÈÚÉ. ÇáÑÌÇÁ ÇÖÛØ ÅáÛÇÁ ááÎÑæÌ.
+ApplicationsFound=The following applications are using files that need to be updated by Setup. It is recommended that you allow Setup to automatically close these applications.
+ApplicationsFound2=The following applications are using files that need to be updated by Setup. It is recommended that you allow Setup to automatically close these applications. After the installation has completed, Setup will attempt to restart the applications.
+CloseApplications=&Automatically close the applications
+DontCloseApplications=&Do not close the applications
 
 ; *** "Installing" wizard page
 WizardInstalling=íÊã ÇáÊÑßíÈ
@@ -229,6 +238,7 @@ SetupAborted=ÇáÅÚÏÇÏ áã íßÊãá.%n%nÇáÑÌÇÁ ÊÕÍíÍ ÇáÎØÃ Ëã ÅÚÇÏÉ ÊÔÛíá ÇáÅÚÏÇÏ ãÑÉ 
 EntryAbortRetryIgnore=ÇÖÛØ ÅÚÇÏÉ ááãÍÇæáÉ ãÑÉ ÃÎÑì, ÊÌÇåá ááãÊÇÈÚÉ Úáì Ãí ÍÇá, Ãæ ÊæŞİ áÅáÛÇÁ ÚãáíÉ ÇáÊÑßíÈ.
 
 ; *** Installation status messages
+StatusClosingApplications=ÅÛáÇŞ ÇáÊØÈíŞÇÊ...
 StatusCreateDirs=ÅäÔÇÁ ÇáãÌáÏÇÊ...
 StatusExtractFiles=İß ÖÛØ ÇáãáİÇÊ...
 StatusCreateIcons=ÅäÔÇÁ ÃíŞæäÇÊ ÇáÈÑÇãÌ...
@@ -237,6 +247,7 @@ StatusCreateRegistryEntries=ÅäÔÇÁ ÈíÇäÇÊ ãáİ ÇáÊÓÌíá...
 StatusRegisterFiles=ÊÓÌíá ÇáãáİÇÊ...
 StatusSavingUninstall=ÍİÙ ãÚáæãÇÊ ÇáÅÒÇáÉ...
 StatusRunProgram=ÅäåÇÁ ÚãáíÉ ÇáÊÑßíÈ...
+StatusRestartingApplications=ÅÚÇÏÉ ÊÔÛíá ÇáÊØÈíŞÇÊ...
 StatusRollback=ÇÓÊÚÇÏÉ ÇáÊÛíÑÇÊ...
 
 ; *** Misc. errors
@@ -300,6 +311,10 @@ SharedFileLocationLabel=ÇáãßÇä:
 WizardUninstalling=ÍÇáÉ ÇáÅÒÇáÉ
 StatusUninstalling=ÅÒÇáÉ %1...
 
+; *** Shutdown block reasons
+ShutdownBlockReasonInstallingApp=ÊÑßíÈ %1.
+ShutdownBlockReasonUninstallingApp=ÅÒÇáÉ %1.
+
 ; The custom messages below aren't used by Setup itself, but if you make
 ; use of them in your scripts, you'll want to translate them.
 
@@ -314,3 +329,6 @@ UninstallProgram=ÅÒÇáÉ %1
 LaunchProgram=ÊÔÛíá %1
 AssocFileExtension=&ÅÑÊÈÇØ %1 ãÚ %2 ÇãÊÏÇÏ Çáãáİ
 AssocingFileExtension=ÑÈØ %1 ãÚ %2 ÇãÊÏÇÏ Çáãáİ...
+AutoStartProgramGroupDescription=ÈÏÁ ÇáÊÔÛíá:
+AutoStartProgram=ÊÔÛíá ÊáŞÇÆí %1
+AddonHostProgramNotFound=%1 ÛíÑ ãæÌæÏ İí ÇáãÌáÏ ÇáãÍÏÏ %n%n. åá ÊÑíÏ ÇáãÊÇÈÚÉ¿
