@@ -1,2 +1,2 @@
 # innosetup
-InnoSetup included Arabic language.
+My Arabic translation of InnoSetup.
