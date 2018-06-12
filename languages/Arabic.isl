@@ -202,10 +202,11 @@ WizardPreparing=ÇáÊÍÖíÑ ááÊÑßíÈ
 PreparingDesc=ÇáÅÚÏÇÏ íŞæã ÈÇáÊÍÖíÑ áÊÑßíÈ [name] Úáì ÌåÇÒß.
 PreviousInstallNotCompleted=ÇáÊÑßíÈ/ÇáÅÒÇáÉ ÇáÓÇÈŞ ÛíÑ ãßÊãá. íÌÈ ÅÚÇÏÉ ÊÔÛíá ÇáÌåÇÒ áÅßãÇá ÊÑßíÈ.%n%nÈÚÏ ÅÚÇÏÉ ÊÔÛíá ÇáÌåÇÒ, ÃÚÏ ÊÔÛíá ÇáÅÚÏÇÏ áÅßãÇá ÊÑßíÈ [name].
 CannotContinue=ÇáÅÚÏÇÏ áÇ íãßäå ÇáãÊÇÈÚÉ. ÇáÑÌÇÁ ÇÖÛØ ÅáÛÇÁ ááÎÑæÌ.
-ApplicationsFound=The following applications are using files that need to be updated by Setup. It is recommended that you allow Setup to automatically close these applications.
-ApplicationsFound2=The following applications are using files that need to be updated by Setup. It is recommended that you allow Setup to automatically close these applications. After the installation has completed, Setup will attempt to restart the applications.
-CloseApplications=&Automatically close the applications
-DontCloseApplications=&Do not close the applications
+ApplicationsFound=ÇáÊØÈíŞÇÊ ÇáÊÇáíÉ ÊÓÊÎÏã ÈÚÖ ÇáãáİÇÊ ÇáÊí Óæİ íÊã ÊÍÏíËåÇ¡ ääÕÍ ÈÇáÓãÇÍ ÈÇÛáÇŞ åĞå ÇáÊØÈíŞÇÊ ÊáŞÇÆíÇ.
+ApplicationsFound2=ÇáÊØÈíŞÇÊ ÇáÊÇáíÉ ÊÓÊÎÏã ÈÚÖ ÇáãáİÇÊ ÇáÊí Óæİ íÊã ÊÍÏíËåÇ¡ ääÕÍ ÈÇáÓãÇÍ ÈÇÛáÇŞ åĞå ÇáÊØÈíŞÇÊ ÊáŞÇÆíÇ¡ ÈÚÏ äåÇíÉ ÇáÊÑßíÈ Óæİ íŞæã ÈÇÚÇÏÉ ÊÔÛíá åĞå ÇáÊØÈíŞÇÊ.
+CloseApplications=ÅÛáÇ&Ş ÇáÊØÈíŞÇÊ ÊáŞÇÆíÇğ
+DontCloseApplications=&áÇ ÊŞã ÈÇÛáÇŞ ÇáÊØÈíŞÇÊ
+ErrorCloseApplications=ÈÑäÇãÌ ÇáÊÑßíÈ áÇ íÓÊØíÚ ÇÛáÇŞ ÇáÊØÈíŞÇÊ ÊáŞÇÆíÇğ. ŞÈá ÇáãÊÇÈÚÉ íäÕÍ ÈÇÛáÇŞ ßÇİÉ ÇáÊØÈíŞÇÊ ÇáÊí ÊÓÊÎÏã ÇáãáİÇÊ ÇáÊí ÈÍÇÌÉ Åáì ÊÍÏíË.
 
 ; *** "Installing" wizard page
 WizardInstalling=íÊã ÇáÊÑßíÈ
