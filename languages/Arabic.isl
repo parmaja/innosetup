@@ -1,14 +1,16 @@
-; *** Inno Setup version 5.5.0+ English messages ***
+; *** Inno Setup version 6.0.3+ Arabic messages ***
 ;
-; Translator: "Zaher Dirkey" zaherdirkey(at)yahoo.com
+; Translator: "Zaher Dirkey" https://github.com/parmaja/innosetup
+;
 ;
 ; Note: When translating this text, do not add periods (.) to the end of
 ; messages that didn't have them already, because on those messages Inno
 ; Setup adds the periods automatically (appending a period would result in
 ; two periods being displayed).
-;
 
 [LangOptions]
+; The following three entries are very important. Be sure to read and
+; understand the '[LangOptions] section' topic in the help file.
 LanguageName=<0627><0644><0639><0631><0628><064A><0629>
 LanguageID=$0401
 LanguageCodePage=1256
@@ -17,7 +19,7 @@ LanguageCodePage=1256
 ;DialogFontName=
 ;DialogFontSize=8
 WelcomeFontName=Tahoma
-WelcomeFontSize=11
+WelcomeFontSize=12
 ;TitleFontName=Arial
 ;TitleFontSize=29
 ;CopyrightFontName=Arial
@@ -41,6 +43,7 @@ ErrorTitle=ÎØÃ
 SetupLdrStartupMessage=ÓíÊã ÊÑßíÈ %1. åá ÊÑÛÈ ÈÇáÇÓÊãÑÇÑ¿
 LdrCannotCreateTemp=áÇ íãßä ÅäÔÇÁ ãáİ ãÄŞÊ. ÓíÊã ÅíŞÇİ ÇáÅÚÏÇÏ
 LdrCannotExecTemp=áÇ íãßä ÊäİíĞ ãáİ İí ÇáãÌáÏ ÇáãÄŞÊ ÓíÊã ÅíŞÇİ ÇáÅÚÏÇÏ
+HelpTextNote=
 
 ; *** Startup error messages
 LastErrorMessage=%1.%n%nÎØÃ %2: %3
@@ -54,13 +57,22 @@ WindowsServicePackRequired=åĞÇ ÇáÈÑäÇãÌ íÊØáÈ %1 ÍÒãÉ ÇáÎÏãÇÊ %2 Ãæ ÃÍÏË.
 NotOnThisPlatform=åĞÇ ÇáÈÑäÇãÌ áÇ íãßäå ÇáÚãá Úáì %1.
 OnlyOnThisPlatform=åĞÇ ÇáÈÑäÇãÌ íÌÈ Ãä íÚãá Úáì %1.
 OnlyOnTheseArchitectures=åĞÇ ÇáÈÑäÇãÌ íãßä ÊäÒíáå İŞØ Úáì åĞå ÇáÅÕÏÇÑÇÊ ãä äÙÇã æíäÏæÒ ãÕãã ÈäíÉ ÇáãÚÇáÌÇÊ:%n%n%1
-MissingWOW64APIs=äÙÇã æíäÏæÒ ÇáãÓÊÎÏã áÇ íÊÖãä ÇáÃæÇãÑ ÇáÎÇÕÉ ááÅÚÏÇÏ áÏÚã 64-bit. áÊÕÍíÍ ÇáãÔßáÉ¡ íÑÌì ÊÑßíÈ Service Pack %1.
 WinVersionTooLowError=åĞÇ ÇáÈÑäÇãÌ íÊØáÈ %1 ÇáÅÕÏÇÑ %2 Ãæ ÅÕÏÇÑ ÃÍÏË.
 WinVersionTooHighError=åĞÇ ÇáÈÑäÇãÌ áÇ íãßä Ãä íÚãá Úáì %1 ÇáÅÕÏÇÑ %2 Ãæ ÅÕÏÇÑ ÃÍÏË.
 AdminPrivilegesRequired=íÌÈ ÇáÏÎæá ßãÏíÑ ÚäÏ ÊÑßíÈ åĞÇ ÇáÈÑäÇãÌ.
 PowerUserPrivilegesRequired=íÌÈ Úáíß ÇáÏÎæá ßãÏíÑ Ãæ ßÜ (Power Users) ÚäÏ ÊÑßíÈ ÇáÈÑäÇãÌ.
 SetupAppRunningError=ÇáÅÚÏÇÏ ÇßÊÔİ Ãä %1 íÚãá.%n%nÇáÑÌÇÁ ÅŞİÇá ßá ÇáÈÑÇãÌ ÇáÂä¡ Ëã ÇáÖÛØ Úáì ãæÇİŞ ááÇÓÊãÑÇÑ Ãæ ÅáÛÇÁ ááÎÑæÌ.
 UninstallAppRunningError=ÈÑäÇãÌ ÇáÅÒÇáÉ æÌÏ Ãä %1 íÚãá.%n%nÇáÑÌÇÁ ÅŞİÇá ßá ÇáÈÑÇãÌ ÇáÂä¡ Ëã ÇáÖÛØ Úáì ãæÇİŞ ááÇÓÊãÑÇÑ Ãæ ÅáÛÇÁ ááÎÑæÌ.
+
+; *** Startup questions
+PrivilegesRequiredOverrideTitle=ÇÎÊÑ äãØ ÈÑäÇãÌ ÇáÊÑßíÈ
+PrivilegesRequiredOverrideInstruction=ÇÎÊÑ äãØ ÇáÊÑßíÈ
+PrivilegesRequiredOverrideText1=%1 ÓíÊã ÊÑßíÈå áßá ÇáãÓÊÎÏãíä (íÊØáÈ ÕáÇÍíÇÊ ÇáãÏíÑ)¡ Çã ááãÓÊÎÏã ÇáÍÇáí İŞØ.
+PrivilegesRequiredOverrideText2=%1 ÓíÊã ÊÑßíÈå ááãÓÊÎÏã ÇáÍÇáí İŞØ¡ Ãã áßá ÇáãÓÊÎÏãíä (íÊØáÈ ÕáÇÍíÇÊ ÇáãÏíÑ).
+PrivilegesRequiredOverrideAllUsers=ÇáÊÑßíÈ á&ßá ÇáãÓÊÎÏãíä
+PrivilegesRequiredOverrideAllUsersRecommended=ÇáÊÑßíÈ á&ßá ÇáãÓÊÎÏãíä (ãİÖá)
+PrivilegesRequiredOverrideCurrentUser=ÇáÊÑßíÈ ááãÓÊÎÏã Çá&ÍÇáí İŞØ
+PrivilegesRequiredOverrideCurrentUserRecommended=ÇáÊÑßíÈ ááãÓÊÎÏã Çá&ÍÇáí İŞØ (ãİÖá)
 
 ; *** Misc. errors
 ErrorCreatingDir="ÇáÅÚÏÇÏ áã íÓÊØÚ ÅäÔÇÁ ÇáãÌáÏ "%1
@@ -140,6 +152,7 @@ WizardSelectDir=ÇÎÊÑ ãÌáÏ ÇáÊÑßíÈ
 SelectDirDesc=Ãíä ÊÑíÏ Ãä íÊã ÊÑßíÈ [name]¿
 SelectDirLabel3=ÇáÅÚÏÇÏ Óæİ íÑßøÈ [name] İí ÇáãÌáÏ ÇáÊÇáí.
 SelectDirBrowseLabel=ááãÊÇÈÚÉ, ÇÖÛØ ÇáÊÇáí. ÅĞÇ ÇÃÏÊ Ãä ÊÎÊÇÑ ãÌáÏ ÂÎÑ¡ ÇÖÛØ ÇÓÊÚÑÇÖ.
+DiskSpaceGBLabel=At least [gb] GB of free disk space is required.
 DiskSpaceMBLabel=Úáì ÇáÃŞá [mb] MB ãä ÇáãÓÇÍÉ ãØáæÈÉ.
 CannotInstallToNetworkDrive=ÇáÅÚÏÇÏ áÇ íÓÊØíÚ Çä íŞæã ÈäÓÎ ÇáãáİÇÊ Úáì ãÍÑßÇÊ ÇáÔÈßíÉ.
 CannotInstallToUNCPath=ÇáÅÚÏÇÏ áÇ íÓÊØíÚ Çä íŞæã ÈäÓÎ ÇáãáİÇÊ Úáì ãÓÇÑÇÊ ÇáÔÈßíÉ.
@@ -167,6 +180,7 @@ NoUninstallWarningTitle=ÇáãßæäÇÊ ãæÌæÏÉ ãÓÈŞÇğ
 NoUninstallWarning=ÇáÅÚÏÇÏ ÇßÊÔİ Ãä ÇáãßæäÇÊ ÇáÊÇáíÉ ãæÌæÏÉ ãÓÈŞÇğ Úáì ÌåÇÒß:%n%n%1%n%nÅáÛÇÁ ÇÎÊíÇÑåÇ íÚäí ÚÏã ÊÑßíÈåÇ.%n%nåá ÊÑÛÈ ÈÇáãÊÇÈÚÉ Úáì Ãí ÍÇá?
 ComponentSize1=%1 KB
 ComponentSize2=%1 MB
+ComponentsDiskSpaceGBLabel=ÇáÇÎÊíÇÑÇÊ ÇáÍÇáíÉ ÊÍÊÇÌ Úáì ÇáÃŞá [gb] GB ãä ÇáãÓÇÍÉ ÇáİÇÑÛÉ Úáì ÇáŞÑÕ.
 ComponentsDiskSpaceMBLabel=ÇáÇÎÊíÇÑÇÊ ÇáÍÇáíÉ ÊÍÊÇÌ Úáì ÇáÃŞá [mb] MB ãä ÇáãÓÇÍÉ ÇáİÇÑÛÉ Úáì ÇáŞÑÕ.
 
 ; *** "Select Additional Tasks" wizard page
@@ -205,8 +219,9 @@ CannotContinue=ÇáÅÚÏÇÏ áÇ íãßäå ÇáãÊÇÈÚÉ. ÇáÑÌÇÁ ÇÖÛØ ÅáÛÇÁ ááÎÑæÌ.
 ApplicationsFound=ÇáÊØÈíŞÇÊ ÇáÊÇáíÉ ÊÓÊÎÏã ÈÚÖ ÇáãáİÇÊ ÇáÊí Óæİ íÊã ÊÍÏíËåÇ¡ ääÕÍ ÈÇáÓãÇÍ ÈÇÛáÇŞ åĞå ÇáÊØÈíŞÇÊ ÊáŞÇÆíÇ.
 ApplicationsFound2=ÇáÊØÈíŞÇÊ ÇáÊÇáíÉ ÊÓÊÎÏã ÈÚÖ ÇáãáİÇÊ ÇáÊí Óæİ íÊã ÊÍÏíËåÇ¡ ääÕÍ ÈÇáÓãÇÍ ÈÇÛáÇŞ åĞå ÇáÊØÈíŞÇÊ ÊáŞÇÆíÇ¡ ÈÚÏ äåÇíÉ ÇáÊÑßíÈ Óæİ íŞæã ÈÇÚÇÏÉ ÊÔÛíá åĞå ÇáÊØÈíŞÇÊ.
 CloseApplications=ÅÛáÇ&Ş ÇáÊØÈíŞÇÊ ÊáŞÇÆíÇğ
-DontCloseApplications=&áÇ ÊŞã ÈÇÛáÇŞ ÇáÊØÈíŞÇÊ
+DontCloseApplications=&áÇ ÊŞã ÈÅÛáÇŞ ÇáÊØÈíŞÇÊ
 ErrorCloseApplications=ÈÑäÇãÌ ÇáÊÑßíÈ áÇ íÓÊØíÚ ÇÛáÇŞ ÇáÊØÈíŞÇÊ ÊáŞÇÆíÇğ. ŞÈá ÇáãÊÇÈÚÉ íäÕÍ ÈÇÛáÇŞ ßÇİÉ ÇáÊØÈíŞÇÊ ÇáÊí ÊÓÊÎÏã ÇáãáİÇÊ ÇáÊí ÈÍÇÌÉ Åáì ÊÍÏíË.
+PrepareToInstallNeedsRestart=ÈÑäÇãÌ ÇáÊÑßíÈ íÊØáÈ ÇÚÇÏÉ ÊÔÛíá ÇáÍÇÓÈ. ÈÚÏ ÇÚÇÏÉ ÇáÊÔÛíá¡ Óæİ íÊã ÊÔÛíá ÈÑäÇãÌ ÇáÊÑßíÈ áÇÊãÇã ÊÑßíÈ [name].%n%nåá ÊÑíÏ ÅÚÇÏÉ ÇáÊÔÛíá ÇáÂä¿
 
 ; *** "Installing" wizard page
 WizardInstalling=íÊã ÇáÊÑßíÈ
@@ -236,7 +251,10 @@ SelectDirectoryLabel=ÇáÑÌÇÁ ÊÍÏíÏ ãßÇä ÇáŞÑÕ ÇáÊÇáí.
 
 ; *** Installation phase messages
 SetupAborted=ÇáÅÚÏÇÏ áã íßÊãá.%n%nÇáÑÌÇÁ ÊÕÍíÍ ÇáÎØÃ Ëã ÅÚÇÏÉ ÊÔÛíá ÇáÅÚÏÇÏ ãÑÉ ÃÎÑì.
-EntryAbortRetryIgnore=ÇÖÛØ ÅÚÇÏÉ ááãÍÇæáÉ ãÑÉ ÃÎÑì, ÊÌÇåá ááãÊÇÈÚÉ Úáì Ãí ÍÇá, Ãæ ÊæŞİ áÅáÛÇÁ ÚãáíÉ ÇáÊÑßíÈ.
+AbortRetryIgnoreSelectAction=Select action
+AbortRetryIgnoreRetry=&ÍÇæá ãÑÉ ÃÎÑì
+AbortRetryIgnoreIgnore=Ê&ÌÇåá ÇáÎØÃ Ëã ÊÇÈÚ
+AbortRetryIgnoreCancel=ÅáÛÇÁ ÇáÊÑßíÈ
 
 ; *** Installation status messages
 StatusClosingApplications=ÅÛáÇŞ ÇáÊØÈíŞÇÊ...
@@ -272,6 +290,8 @@ FileAbortRetryIgnore2=ÇÖÛØ ÅÚÇÏÉ ááãÍÇæáÉ ãÑÉ ÃÎÑì, ÊÌÇåá ááãÊÇÈÚÉ Úáì Ãí ÍÇá (á
 SourceIsCorrupted=ãáİ ÇáãÕÏÑ ãÚØæÈ
 SourceDoesntExist=ãáİ ÇáãÕÏÑ "%1" ÛíÑ ãæÌæÏ
 ExistingFileReadOnly=Çáãáİ ÇáÍÇáí ãÍÏÏ ááŞÑÇÁÉ İŞØ.%n%nÇÎÊÑ ÃÚÏ áÅáÛÇÁ ÎÇÕíÉ ÇáŞÑÇÁÉ İŞØ Ëã ÃÚÏ ÇáãÍÇæáÉ ãÑÉ ËÇäíÉ, ÊÌÇåá áÊÌÇåá Çáãáİ, Ãæ ÊæŞİ áÅáÛÇÁ ÇáÊÑßíÈ.
+ExistingFileReadOnlyRetry=Ã&Òá ÎÇÕíÉ ÇáŞÑÇÁÉ İŞØ Ëã ÍÇæá ãÑÉ ÃÎÑì
+ExistingFileReadOnlyKeepExisting=ÇÊ&Ñß Çáãáİ ÇáãæÌæÏ
 ErrorReadingExistingDest=ÍÕá ÎØÃ ÚäÏ ãÍÇæáÉ ŞÑÇÆÉ Çáãáİ:
 FileExists=Çáãáİ ãæÌæÏ ãÓÈŞÇğ.%n%nåá ÊÑíÏ ÇáßÊÇÈÉ Úáíå¿
 ExistingFileNewer=Çáãáİ ÇáãæÌæÏ ãÓÈŞÇğ ÃÍÏË ãä Çáãáİ ÇáĞí íÍÇæá ÇáÅÚÏÇÏ ÊÑßíÈå. íİÖá ÇáÇÍÊİÇÙ ÈÇáãáİ ÇáãæÌæÏ ãÓÈŞÇğ.%n%nåá ÊÑíÏ ÇáÇÍÊİÇÙ ÈÇáãáİ ÇáãæÌæÏ ãÓÈŞÇğ¿
@@ -285,6 +305,16 @@ ErrorRenamingTemp=ÍÕá ÎØÃ ÃËäÇÁ ãÍÇæáÉ ÊÛííÑ ÇÓã ãáİ İí ãÌáÏ ÇáÊÑßíÈ:
 ErrorRegisterServer=áÇ íãßä ÊÓÌíá ãáİÇÊDLL/OCX: %1
 ErrorRegSvr32Failed=İÔá RegSvr32 ÎØÃ ÑŞã %1
 ErrorRegisterTypeLib=áÇ íãßä ÊÓÌíá ãßÊÈÇÊ %1:
+
+; *** Uninstall display name markings
+; used for example as 'My Program (32-bit)'
+UninstallDisplayNameMark=%1 (%2)
+; used for example as 'My Program (32-bit, All users)'
+UninstallDisplayNameMarks=%1 (%2, %3)
+UninstallDisplayNameMark32Bit=32-bit
+UninstallDisplayNameMark64Bit=64-bit
+UninstallDisplayNameMarkAllUsers=ßá ÇáãÓÊÎÏãíä
+UninstallDisplayNameMarkCurrentUser=ÇáãÓÊÎÏã ÇáÍÇáí
 
 ; *** Post-installation errors
 ErrorOpeningReadme=ÍÕá ÎØÃ ÚäÏ ãÍÇæáÉ İÊÍ ãáİ README.
